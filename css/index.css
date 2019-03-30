@@ -1,0 +1,51 @@
+body{
+  background: #5499C7;
+}
+header{
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  background: #E74C3C  ;
+
+}
+a,img{
+  width:40%;
+  height:40%;
+  float: right;
+}
+.child{
+  width: 100px;
+  height:100px;
+
+   padding:1%; 
+  margin: 2%;
+  text-align: center;
+  border-radius: 2px solid #fff;
+  display: block;
+  background-color: red;
+  justify-content: center;
+  text-align: center;
+   flex-wrap: wrap;
+
+}
+ .link{
+  /* justify-content: center; */
+  /* text-align: center; */
+ text-decoration: none;
+  background-color: violet;
+/* display: flex; */
+
+
+}
+.child img{
+/*  text-align: center; */
+  padding: 70px;
+   display: flex;
+  width:100px;
+  height: 100px;
+background-color: red;
+padding:10%;
+  flex-wrap: wrap;
+}
+
+}

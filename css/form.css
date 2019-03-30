@@ -1,0 +1,67 @@
+body{
+  background: #E74C3C;
+}
+
+.parent{
+
+  width: 100%;
+  border: 3px solid #3CE7E4;
+
+}
+
+.career,.skills{
+  width: 95%;
+  text-align: center;
+  border: 3px solid #3CE7E4  ;
+
+  margin:2%;
+  padding:1%;
+  background: #51E73C  ;
+}
+ .main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* width: 100%; */
+}
+
+.details{
+  width: 40%;
+  text-align: center;
+  border: 3px solid #3CE7E4  ;
+
+  margin:2%;
+  padding:1%;
+  background: #B33CE7  ;
+
+}
+
+/* .skills{
+  width: 40%;
+  text-align: center;
+  border: 3px solid #3CE7E4  ;
+
+  margin:2%;
+  padding:1%;
+  background: #B33CE7  ;
+} */
+#button{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  float: right;
+
+}
+input,select{
+  width: 80%;
+  margin:2%;
+}
+
+/* @media screen and (max-width:800px){
+  body{
+    background-color: blue;
+  }
+  .parent{
+    width: 95%;
+  }
+   */
